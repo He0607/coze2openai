@@ -48,6 +48,16 @@ pnpm install
 ```bash
 pnpm start
 ```
+然后浏览器打开你部署的网址是否显示dify2openai部署成功
+```bash
+http://ip:3000
+```
+
+5.停止程序
+如果想要关闭程序可以执行 ```kill -9 <进程ID>``` 来完成，执行以下命令可以查看当前进程的 pid：
+```bash
+sudo lsof -i :3000
+```
 
 # 用法
 ```JavaScript
@@ -87,7 +97,7 @@ console.log(data);
 
 **现在可用**
 *   持续对话
-*   Zeabur＆Vercel&Railway 部署
+*   Zeabur＆Vercel&Railway＆Railway 部署
 *   流式和非流式传输
 *   Coze 插件
 
