@@ -49,7 +49,7 @@ pnpm install
 pnpm start
 ```
 
-然后浏览器打开你部署的网址是否显示dify2openai部署成功
+**注意:** 浏览器打开你部署的网址是否显示dify2openai部署成功
 ```bash
 http://ip:3000
 ```
@@ -80,6 +80,7 @@ const response = await fetch('http://localhost:3000/v1/chat/completions', {
 const data = await response.json();
 console.log(data);
 ```
+
 # 环境变量
 该项目提供了一些额外的配置项，通过环境变量设置：
 
